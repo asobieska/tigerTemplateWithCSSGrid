@@ -147,10 +147,9 @@ body {
 #service1, #service2{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-gap: 10px;
     background-size: cover;
     margin: 0px;
-    min-height: 500px;
+
 }
 
 .text {
@@ -162,10 +161,18 @@ body {
     font-size: 36px;
 }
 
-#service1 img{
-    width: 100%;
+.box-img1{
+    background-image: url(../img/laptop.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 300px;
 }
 
-#service2 img{
-    width: 100%;
+.box-img2{
+    background-image: url(../img/people.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 300px;
 }
