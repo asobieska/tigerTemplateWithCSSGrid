@@ -1,0 +1,171 @@
+@font-face {
+    font-family: "FontAwesome";
+    src: url("../webfonts/fa-solid-900.woff");
+}
+
+i {
+    font-family: "FontAwesome";
+}
+
+html, body {
+    height: 100%;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+	margin: 0;
+}
+
+/* HEADER */
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+    font-size: 12px;
+    line-height: 40px;
+    font-weight: 600;
+}
+.nav-item a {
+    color: black;
+}
+
+.nav-link:hover, .dropdown:hover{
+    color: aqua;
+}
+
+.navbar-brand {
+    font-size: 24px;
+    margin-right: 40px;
+}
+
+.navbar-nav a:link {
+    text-decoration: none;
+    display: inline-block;
+    padding: 0px 30px;
+}
+
+.box-shadow {
+    text-transform: uppercase;
+    border-width: 1px;  
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-item:hover{
+    color: aqua;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 6px 15px;
+    z-index: 1;
+}
+.dropdown-content a{
+    color: #ffffff;
+}
+
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    background-color: #333333;
+}
+
+/* HOME SECTION */
+
+.home {
+    min-height: 400px;
+    background: url('../img/main-bg.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 50px;
+    padding: 5rem;
+}
+
+.main-home h1{
+    font-size: 38px;
+}
+
+.register{
+    background-color: #333333;
+}
+
+.register h2{
+    text-align: center;
+    color: #ffffff;
+}
+
+.register form {
+    padding: 5px 0px 5px 40px;
+}
+
+.register input{
+    background-color: #494949;
+    color: #ffffff;
+    padding-left: 1em;
+    margin: 2px;
+}
+
+.register button{
+    background-color: #3399cc;
+}
+
+
+/* Banner */
+#banner {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+}
+
+.section1{
+    background-color: #99ccff;
+    text-align: center;
+    padding: 1.5em 1.5em;
+}
+
+.section2{
+    background-color: #6699ff;
+    text-align: center;
+    padding: 1.5em 1.5em;
+}
+
+.section3{
+    background-color: #3399cc;
+    text-align: center;
+    padding: 1.5em 1.5em;
+}
+
+/* Services */
+#service1, #service2{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    background-size: cover;
+    margin: 0px;
+    min-height: 500px;
+}
+
+.text {
+    text-align: center;
+    padding: 1.5em 1.5em;
+}
+
+.text h1{
+    font-size: 36px;
+}
+
+#service1 img{
+    width: 100%;
+}
+
+#service2 img{
+    width: 100%;
+}
