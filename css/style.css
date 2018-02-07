@@ -87,7 +87,7 @@ body {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 50px;
-    padding: 5rem;
+    padding: 5rem 20rem;
 }
 
 .main-home h1{
@@ -161,18 +161,36 @@ body {
     font-size: 36px;
 }
 
-.box-img1{
-    background-image: url(../img/laptop.jpeg);
+.box-img1, .box-img2 {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 300px;
 }
 
+
+.box-img1{
+    background-image: url(../img/laptop.jpeg);  
+}
+
 .box-img2{
     background-image: url(../img/people.jpeg);
+}
+
+/* Image */
+.apple{
+    min-height: 500px;
+    background-image: url(../img/smartfon.jpeg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    min-height: 300px;
+    margin: 0px;
 }
+
+.apple-text{
+    padding: 5em 15em;
+    color: #ffffff;
+}
+
+
+
